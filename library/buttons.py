@@ -16,10 +16,9 @@ start_btn = [
     ],
     [
         InlineKeyboardButton('Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support', url='t.me/RMProjects')
+        InlineKeyboardButton('Support', url='t.me/ELSupport')
     ],
     [
-        InlineKeyboardButton('Close', callback_data='close_btn'),
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
     ]
 ]
@@ -34,7 +33,7 @@ del_thumb = [
 
 join_channel = [
     [
-        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/RMProjects'),
+        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/ELUpdates'),
         InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
     ]
 ]
